@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function() {
         return age;
     }
 
-    // Menampilkan umur di halaman
     const umurSpan = document.getElementById("umur");
     const umurTextSpan = document.getElementById("umurText");
 
@@ -24,7 +23,6 @@ document.addEventListener("DOMContentLoaded", function() {
         umurTextSpan.textContent = umur;
     }
 
-    // Menu dropdown
     const menuButton = document.getElementById("menuButton");
     const menuDropdown = document.getElementById("menuDropdown");
 
@@ -35,7 +33,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
-// Fungsi untuk scroll ke section
 function scrollToSection(id) {
     const element = document.getElementById(id);
     if (element) {
