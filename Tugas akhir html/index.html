@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASL Website</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script defer src="script/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>A S L Website</h1>
+        <button id="menuButton">
+            <img src="assets/dropdown.svg" alt="">
+            <span>Menu</span>
+        </button>
+        <ul id="menuDropdown" class="dropdown-menu hidden">
+            <button onclick="scrollToSection('about')">About Me</button>
+            <button onclick="scrollToSection('overview')">Overview</button>
+            <button onclick="scrollToSection('framework')">Framework</button>
+        </ul>
+    </header>
+
+    <main>
+        <article>
+            <section id="about">
+                <h2>About Me</h2>
+                <ol>
+                    <li><b>Full Name:</b> Azarya Stefanus Lopulalan</li>
+                    <li><b>TTL:</b> Bogor, 02 September 2003</li>
+                    <li><b>Umur:</b> <span id="umur"></span> Tahun</li>
+                    <li><b>Tempat Tinggal:</b> Bogor</li>
+                    <li><b>Pekerjaan:</b> Mahasiswa</li>
+                    <li><b>Institusi:</b> Universitas Brawijaya</li>
+                    <li><b>Jurusan:</b> Teknologi Informasi</li>
+                    <li><b>Tahun Masuk:</b> 2022</li>
+                    <li><b>Hobby:</b> Main Game</li>
+                    <li><b>Makanan Favorite:</b> Indomie</li>
+                </ol>
+            </section>
+
+            <section id="overview">
+                <h2>Overview</h2>
+                <p>
+                    Halo, perkenalkan nama saya Azarya Stefanus Lopulalan, teman-teman saya kerap memanggil saya dengan Aza. Saya lahir di Bogor pada 02 September 2003, dan saat ini saya berusia <span id="umurText"></span> tahun. Saya tinggal di Bogor dan sedang menempuh pendidikan di Universitas Brawijaya jurusan Teknologi Informasi sejak tahun 2022. Saya memiliki ketertarikan di dunia pemrograman, terutama dalam bidang pembuatan website. Framework yang sering saya gunakan dalam pengembangan web antara lain React.js, Next.js, dan Laravel. Selain itu, saya juga menguasai beberapa bahasa pemrograman lainnya, seperti Java, PHP, dan Kotlin, yang semakin memperkaya kemampuan saya dalam membangun berbagai aplikasi berbasis web dan mobile. Dalam pembuatan laman web ini saya menggunakan framework Next.js.
+                </p>
+            </section>
+
+            <section id="framework">
+                <h2>My Favorite Framework to Code</h2>
+                <marquee>
+                    <img src="assets/Reactpict.svg" alt="React">
+                    <img src="assets/phppict.svg" alt="PHP">
+                    <img src="assets/nextpict.svg" alt="Next.js">
+                </marquee>
+            </section>
+        </article>
+
+        <aside>
+            <img src="assets/PassFoto.jpg" alt="PasFoto">
+            <div>
+                <h3>Azarya Stefanus Lopulalan</h3>
+                <p>Website Owner</p>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Design & Code by Azarya S. L.</p>
+    </footer>
+</body>
+</html>
