@@ -181,6 +181,10 @@ article ol{
   gap: 10px;
 }
 
+.hidden {
+    display: none;
+}
+
 article img{
   padding: 20px;
 }
